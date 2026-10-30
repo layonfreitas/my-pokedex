@@ -126,6 +126,7 @@ export default function PokemonDetailScreen() {
 
 
   useEffect(() => {
+    console.log('Carregando detalhes do Pokémon com ID:', id);
     const controller = new AbortController();
 
     async function loadPokemon() {
